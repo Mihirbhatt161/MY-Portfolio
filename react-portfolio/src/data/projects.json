@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Mobile Repair Website",
+      "imageSrc": "projects/project.png",
+      "description": "This is a full-stack web application developed for TickTech, IT Company during my Summer Internship. ",
+      "skills": ["Django", "SQLite", "HTML", "CSS", "JS"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/Mihirbhatt161/Mobile-Repair-Website.git"
+    },
+    {
+      "title": "Traffic Violation Detection System",
+      "imageSrc": "projects/project.png",
+      "description": "Real-time Traffic Violation Detection: Uses object detection to identify traffic violations.",
+      "skills": ["Tkinter", "OpenCV", "ImageIO", "Python"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/Mihirbhatt161/Traffic-Violation-Detection-System-.git"
+    },
+    {
+      "title": "Upcoming Project X",
+      "imageSrc": "projects/project.png",
+      "description": "Real-time MERN technology using and working on some newer js frameworks and deploy it soon once database part get over.",
+      "skills": ["MERN"],
+      "demo": "https://www.example.com",
+      "source": "https://www.example.com"
+    }
+  ]

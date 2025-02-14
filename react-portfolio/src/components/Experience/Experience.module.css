@@ -1,0 +1,112 @@
+/* Experience Section Styles */
+.experience-section {
+  background-color: hsl(0, 100%, 15%);
+  color: hsl(57, 100%, 91%);
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.experience-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: hsl(57, 100%, 91%);
+}
+
+.experience-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.experience-card {
+  background-color: hsl(345, 57%, 44%);
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  width: 100%;
+}
+.experience-card img.experience-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%; /* Circular Image */
+  margin-bottom: 15px;
+}
+
+.experience-card h3 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.experience-card h4 {
+  font-size: 3rem;
+  color: hsl(57, 100%, 91%);
+  margin-bottom: 8px;
+}
+
+.experience-duration {
+  font-style: italic;
+  color: hsl(57, 100%, 91%);
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.experience-description {
+  font-size: 1.8rem;
+  color: hsl(57, 100%, 91%);
+}
+
+
+/* Slider Buttons 
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #007bff; /* Blue 
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.slider-btn:hover {
+  background-color: #0056b3; /* Darker Blue 
+  transform: scale(1.1);  Slightly enlarge on hover 
+}
+
+.slider-btn.left {
+  left: 10px;
+}
+
+.slider-btn.right {
+  right: 10px;
+}
+*/
+/* Responsive Design */
+@media (max-width: 768px) {
+  .slider-btn {
+    width: 35px;
+    height: 35px;
+    font-size: 1.5rem;
+  }
+
+  .slider-btn.left {
+    left: -40px;
+  }
+
+  .slider-btn.right {
+    right: -40px;
+  }
+
+  .experience-card {
+    padding: 15px 20px;
+  }
+}

@@ -1,0 +1,177 @@
+@import "../../vars.css";
+/* Contact Section Styles */
+.contact-section {
+    padding: 2rem 1rem;
+    background-color: hsl(0, 100%, 15%); /* Light background for contrast */
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-section h2 {
+    font-size: 35px;
+    margin-bottom: 1.5rem;
+    color: hsl(57, 100%, 91%);
+    animation: fadeInDown 1s ease-in-out;
+  }
+  
+  /* Contact Form Styles */
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: hsl(0, 100%, 15%);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .contact-form div {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #4caf50; /* Green focus */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.4);
+  }
+  
+  .contact-form textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  .contact-form button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #4caf50;
+    color: hsl(57, 100%, 91%);
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .contact-form button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  
+  /* Error Message Styles */
+  .error-message {
+    color: #d9534f;
+    font-size: 0.9rem;
+    margin-top: -0.5rem;
+    margin-bottom: 0.5rem;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  /* Success Message Styles */
+  .success-message {
+    color: #4caf50;
+    font-size: 1rem;
+    margin-top: 1rem;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+ /* Social Links Container */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Social Media Icon Styling */
+.social-icon {
+  font-size: 2rem; /* Size of the icons */
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth animations */
+}
+
+/* Specific Colors for Each Icon */
+.social-icon.github {
+  color: #333; /* GitHub - Default color */
+}
+.social-icon.github:hover {
+  color: #6cc644; /* GitHub - Green hover color */
+}
+
+.social-icon.linkedin {
+  color: #0077b5; /* LinkedIn - Default color */
+}
+.social-icon.linkedin:hover {
+  color: #005582; /* LinkedIn - Darker blue hover color */
+}
+
+.social-icon.instagram {
+  color: #e1306c; /* Instagram - Default color */
+}
+.social-icon.instagram:hover {
+  color: #bc2a8d; /* Instagram - Pink hover color */
+}
+
+/* Add a scaling effect on hover */
+.social-icon:hover {
+  transform: scale(1.2); /* Slight zoom effect */
+}
+
+
+  
+  /* Animations */
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .contact-section {
+      padding: 1rem;
+    }
+  
+    .contact-form {
+      padding: 1.5rem;
+    }
+  
+    .contact-section h2 {
+      font-size: 2rem;
+    }
+  }
+  

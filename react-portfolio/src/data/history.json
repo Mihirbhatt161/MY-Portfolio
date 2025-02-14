@@ -1,0 +1,29 @@
+[
+    {
+      "role": "Web Developer",
+      "organisation": "Cloud Counselage",
+      "startDate": "June, 2023",
+      "endDate": "Sept, 2023",
+      "experiences": ["Developed and deployed full-stack web applications, gaining hands-on experience with front-end technologies like HTML, CSS, and JavaScript, as well as back-end frameworks such as Node.js and Express.js."],
+      "imageSrc": "history/cloud.jpg"
+    },
+    {
+      "role": "Machine Learning Trainee",
+      "organisation": "MedTourEasy",
+      "startDate": "March, 2023",
+      "endDate": "April, 2023",
+      "experiences": ["Gained hands-on experience in designing and implementing machine learning models using Python libraries such as TensorFlow, Keras, and Scikit-learn."],
+      "imageSrc": "history/mte.jpg"
+      
+    },
+    {
+      "role": "Full Stack Developer",
+      "organisation": "TickTech IT Solutions",
+      "startDate": "July 2022",
+      "endDate": "August, 2022",
+      "experiences": [
+        "Worked on real-world projects that enhanced my understanding of software lifecycle management, from requirement analysis to production deployment."
+      ],
+      "imageSrc": "history/tick.jpg"
+    }
+  ]

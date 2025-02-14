@@ -1,0 +1,73 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "skills/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "skills/css.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "skills/react.png"
+    },
+    {
+      "title": "NodeJS",
+      "imageSrc": "skills/node.png"
+    },
+    {
+      "title": "NextJS",
+      "imageSrc": "skills/next.png"
+    },
+    {
+      "title": "VueJS",
+      "imageSrc": "skills/vue.png"
+    },
+    {
+      "title": "MongoDB",
+      "imageSrc": "skills/mongodb.png"
+    },
+    {
+      "title": "Javascript",
+      "imageSrc": "skills/js.png"
+    },
+    {
+      "title": "C++",
+      "imageSrc": "skills/c++.png"
+    },
+    {
+      "title": "PowerBI",
+      "imageSrc": "skills/powerbi.png"
+    },
+    {
+      "title": "GitHub",
+      "imageSrc": "skills/github.png"
+    },{
+      "title": "GitLab",
+      "imageSrc": "skills/gitlab.png"
+    },
+    {
+      "title": "ExpressJS",
+      "imageSrc": "skills/ex.png"
+    },
+    {
+      "title": "SQL",
+      "imageSrc": "skills/sql.png"
+    },
+    {
+      "title": "Firebase",
+      "imageSrc": "skills/firebase.png"
+    },
+    {
+      "title": "Vercel",
+      "imageSrc": "skills/vercel.png"
+    },
+    {
+      "title": "Netlify",
+      "imageSrc": "skills/netlify.png"
+    },{
+      "title": "Canva",
+      "imageSrc": "skills/canva.png"
+    }
+
+  ]
