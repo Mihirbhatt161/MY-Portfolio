@@ -3,7 +3,8 @@
 Welcome to my **modern and responsive portfolio website** built with **React + Vite**! 🌟  
 Showcasing my skills, experience, and projects in an interactive and visually appealing way.  
 
-![Portfolio Preview](![image](https://github.com/user-attachments/assets/05e7feb2-ad2a-4663-99e0-9f40876c78c4))
+![image](https://github.com/user-attachments/assets/7ac97f6c-25dd-44ec-8c9f-3320432c8371)
+
 
 ---
 
